@@ -6,7 +6,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "build": "npx expo build:web",
+    "build": "yarn global add expo-cli && npx expo build:web",
     "gen": "graphql-codegen --config codegen.yml"
   },
   "dependencies": {
